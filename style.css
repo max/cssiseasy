@@ -5,8 +5,6 @@ body {
 
 a {
   color: #002cfb;
-  display: block;
-  margin-top: 5px;
   text-decoration: none;
 }
 
@@ -40,4 +38,9 @@ img {
   float: left;
   margin-right: 10px;
   width: 48px;
+}
+
+li a {
+  display: block;
+  margin-top: 5px;
 }
