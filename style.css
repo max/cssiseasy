@@ -1,0 +1,32 @@
+body {
+  background: white;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #002cfb;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+li:not(:last-of-type) {
+  border-bottom: 1px solid lightgray;
+}
+
+small {
+  color: gray;
+}
