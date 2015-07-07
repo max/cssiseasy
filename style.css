@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: white;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -43,4 +47,8 @@ img {
 li a {
   display: block;
   margin-top: 5px;
+}
+
+.vip img {
+  border: 2px solid #002cfb;
 }
